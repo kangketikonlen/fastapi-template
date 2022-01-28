@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+motor
+passlib
+PyJWT
+fastapi-pagination
+python-dotenv
+pydantic
+aiofiles
+python-multipart
+werkzeug
