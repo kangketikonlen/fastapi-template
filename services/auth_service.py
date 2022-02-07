@@ -12,9 +12,7 @@ async def fetch_data_by_username(username, password=""):
     document = await collection.find_one({"username": username})
     if document and password != "":
         document["password"] = password
-        return RegisterOut(**document)
-    else:
-        return None
+    return RegisterOut(**document)
 
 
 async def fetch_new_data_by_username(username, password):
