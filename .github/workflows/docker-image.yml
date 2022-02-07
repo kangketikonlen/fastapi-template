@@ -8,7 +8,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: fastapi-template
+  IMAGE_NAME: ${{ github.event.repository.name }}
 
 jobs:
   push:
