@@ -9,3 +9,4 @@ pydantic
 aiofiles
 python-multipart
 werkzeug
+bcrypt
