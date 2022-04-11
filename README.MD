@@ -20,7 +20,8 @@
 
 <h2>⏱ Instalasi</h2>
   <ol>
-    <li>TBD</li>
+    <li>Otentikasi mesin dengan gcp <code>docker-compose -f docker-compose-deploy.yml run --rm gcloud sh -c "gcloud auth login"</code></li>
+    <li>Deploy aplikasi ke app engine gcp <code>docker-compose -f docker-compose-deploy.yml run --rm gcloud sh -c "gcloud app deploy --project $PROJECT_ID"</code></li>
   </ol>
   <hr />
 
