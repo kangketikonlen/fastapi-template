@@ -1,0 +1,17 @@
+.git
+.gitignore
+__pycache__/
+/setup.cfg
+/.env
+venv
+/.idea/.gitignore
+/.idea/fastapi-template.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+docker-compose.yml
+docker-compose-deploy.yml
+Dockerfile
+Makefile
+README.md
