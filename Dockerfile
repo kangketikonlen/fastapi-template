@@ -3,7 +3,7 @@ COPY ./requirements.txt /requirements.txt
 COPY ./ /app
 WORKDIR /app
 
-RUN adduser --disabled-password --no-create-home fastapi-user
+RUN adduser --disabled-password --no-create-home --gecos "" fastapi-user
 RUN python -m venv /env
 RUN /env/bin/pip install --upgrade pip
 RUN /env/bin/pip install --no-cache-dir --upgrade -r /requirements.txt
