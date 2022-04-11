@@ -8,7 +8,7 @@ from routers import auth_route, user_route
 
 app = FastAPI()
 auth = AuthHandler()
-origins = ["http://localhost:3000"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
