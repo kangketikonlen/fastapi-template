@@ -12,4 +12,4 @@ ENV PATH="/env/bin:$PATH"
 
 USER fastapi-user
 
-#CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
